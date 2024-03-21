@@ -14,11 +14,6 @@ class User
     @age = age
   end
 
-  sig do  params(
-    name: String,
-    age: Integer).returns(String)
-  end
-  def hello(name:, age:)
-    ""
-  end
+  sig { returns(String) }
+  def hello = "Hello: #{name}"
 end

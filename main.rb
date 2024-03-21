@@ -5,7 +5,7 @@ require './lib/user'
 
 def main
   user = User.new(name: 'John', age: "20".to_i)
-  puts user.name
+  puts user.hello
 end
 
 main
