@@ -7,6 +7,7 @@
 
 ## Usage
 
+Hi, 
 Sorbet is a fast, powerful type checker designed for Ruby
 
 - https://sorbet.org/
